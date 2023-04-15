@@ -73,7 +73,7 @@ const AllPokemon = () => {
                 <li key={pokemon.name}>
                 <h2>{pokemon.name}</h2>
                 <Img src={pokemonSprites[pokemon.name]} id={`img-${pokemon.name}`} />
-                <p><a href={pokemon.url} target="_blank">{pokemon.url}</a></p>
+                <p><a href={pokemon.url} target="_blank" rel="noreferrer">{pokemon.url}</a></p>
                 </li>
             ))}
         </List>
